@@ -26,13 +26,13 @@ subcollection: vpc
 # About {{site.data.keyword.cloud_notm}} Application Load Balancer for VPC
 {: #load-balancers}
 
-Use {{site.data.keyword.cloud}} application load balancer to distribute traffic among multiple server instances within the same region of your VPC.
+Use {{site.data.keyword.cloud}} Application Load Balancer for VPC to distribute traffic among multiple server instances within the same region of your VPC.
 {:shortdesc}
 
-The following diagram illustrates the deployment architecture for the application load balancer.
+The following diagram illustrates the deployment architecture for the {{site.data.keyword.cloud}} Application Load Balancer for VPC.
 
-![Load Balancer for VPC](images/VPC-LBaaS-Architecture.png "Application Load Balancer")
-{: caption="Application Load Balancer" caption-side="top"}
+![Application Load Balancer for VPC](images/VPC-LBaaS-Architecture.png "Application Load Balancer for VPC")
+{: caption="IBM Cloud Application Load Balancer for VPC" caption-side="top"}
 
 ## Types of application load balancers
 {: #types-load-balancer}
