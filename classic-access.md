@@ -37,9 +37,9 @@ For virtual server instances and bare metal instances on the classic infrastruct
 {: #vpc-prerequisites}
 
  Your classic account must be enabled for Virtual Router Forwarding (VRF).
-   * If you already have Direct Link on your account, you're ready.
+   * If you already have Direct Link on your account, you're all set. If you don't have a Direct Link gateway, see [Getting started with Direct Link (2.0)](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl) to set up and provision a Direct Link gateway.
    * If your account is not VRF-enabled, open a ticket to request "VRF Migration" for your account. See [Converting to VRF](#vrf-conversion) to learn more about the conversion process.
-
+ 
 All subnets in a classic access VPC are shared into the classic infrastructure VRF, which uses IP addresses in the `10.0.0.0/8` space. To avoid IP address conflicts, don't use IP addresses in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks in your classic access VPC. Also, don't use addresses from your classic infrastructure subnets. To view the list of your classic infrastructure subnets, see [View all Subnets](/docs/subnets?topic=subnets-view-all-subnets).
 {: important}
 
