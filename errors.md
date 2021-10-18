@@ -701,6 +701,8 @@ Provide a valid member weight. The value must be an integer between 0 and 100.
 In your request, provide the address of a member that belongs to a subnet in same the Region and VPC as the load balancer.
 
 ## member_missing_address
+{: #member_missing_address}
+
 **Message**: Member address is missing.
 
 Member address is a required field. Provide a value for member address.
