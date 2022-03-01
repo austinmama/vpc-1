@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-11-13"
+  years: 2020, 2022
+lastupdated: "2022-02-18"
 
 keywords: fortigate, fortigate peer
 
@@ -15,7 +15,7 @@ subcollection: vpc
 # Connecting to a FortiGate peer
 {: #fortigate-config}
 
-You can use IBM Cloud VPN Gateway for VPC  to securely connect your VPC to an on-premises network through a VPN tunnel. This topic provides guidance about how to configure your FortiGate VPN gateway to connect to VPN Gateway for VPC.
+You can use IBM Cloud VPN for VPC  to securely connect your VPC to an on-premises network through a VPN tunnel. This topic provides guidance about how to configure your FortiGate VPN gateway to connect to VPN for VPC.
 {: shortdesc}
 
 These instructions are based on FortiGate 300C, Firmware Version v5.2.13, build762 (GA).
@@ -33,7 +33,7 @@ To support these functions, the following general configuration steps must be pe
 * Define the Phase 2 parameters that the FortiGate VPN requires to create a VPN tunnel with {{site.data.keyword.vpn_vpc_short}}.
 * Create security policies to control the permitted services and permitted direction of traffic between the IP source and destination addresses.
 
-Use the following configuration:
+Here's an example configuration:
 
 1. Choose IKEv2 in authentication.
 1. Enable `DH-group 2` in the Phase 1 proposal.
