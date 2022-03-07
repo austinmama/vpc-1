@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2018, 2020
+  years: 2018, 2021
 
-lastupdated: "2020-10-12"
+lastupdated: "2021-12-13"
 
 keywords:  
 
@@ -12,18 +12,7 @@ subcollection: vpc
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:note: .note}
-{:download: .download}
-{:DomainName: data-hd-keyref="DomainName"}
-{:ui: .ph data-hd-interface='ui'}
-{:cli: .ph data-hd-interface='cli'}
-{:api: .ph data-hd-interface='api'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Updating the default security group
 {: #updating-the-default-security-group}
@@ -95,7 +84,7 @@ Inbound rules to allow pinging and SSH are not automatically added to the defaul
 
 3. Update the default security group to add rules that allow SSH and PING.
 
-   Disabling SSH connections will prohibit the license registration for RedHat Enterprise Linux. This may result in provisioning failures.
+   Disabling SSH connections prohibits the license registration for RedHat Enterprise Linux. This can result in provisioning failures.
    {: important}
 
    ```
