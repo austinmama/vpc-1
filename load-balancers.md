@@ -45,8 +45,8 @@ The following table provides a comparison of the types of load balancers.
 | Virtual IP Address (VIP)   |  Single    | Multiple |
 | Route mode for VNFs   | Yes (see [Setting up high availability for Virtual Network Functions (VNF)](/docs/vpc?topic=vpc-about-vnf)) | No |
 | Virtual Servers on VPC   |  Yes    | Yes |
-| Member type  |  VSI    | VSI, Bare Metal, Power VS |
-| Power Virtual Server instances connected over DirectLink   |  No    | Yes (No support for instance groups) |
+| Member type  |  Virtual server instances | Virtual server instances, Bare Metal, Power Systems™ Virtual Server |
+| Power Systems Virtual Server instances connected over Direct Link (2.0)  |  No | Yes (No support for instance groups) |
 {: caption="Table 1. Comparison of network and application load balancers" caption-side="bottom"}
 
 ## High Availability mode
