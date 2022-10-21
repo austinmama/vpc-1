@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-09-09"
+lastupdated: "2022-10-21"
 
 keywords:
 
@@ -105,6 +105,9 @@ To import VPN server certificates into a Secrets Manager, follow these steps:
    {: note}
    
 1. On the Your certificates page, follow these steps to import the certificate:
+
+**User didn't know where to go in the Secrets Manager menu. Says that he went to Support and that I should add the following information to this topic.  
+**Are you importing a certificate or creating a certificate? Refer to: [Import certificates](/docs/secrets-manager?topic=secrets-manager-certificates&interface=ui#import-certificates) or [Order certificates](/docs/secrets-manager?topic=secrets-manager-certificates&interface=ui#order-certificates).**
 
    - Provide a certificate name.
    - Click **Browse** and select `./pki/issued/vpn-server.vpn.ibm.com.crt` as the certificate file.
