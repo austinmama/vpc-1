@@ -80,25 +80,21 @@ To receive monitoring metrics, use the following steps:
 
 1. Navigate to the [metrics monitoring portal](/observe/monitoring){: external} and click **Create a monitoring instance**.
 
-2. Select a region for your monitoring instance.
-
-   ![Region](images/metrics_1.png "Region"){: caption="Figure 1. Region" caption-side="bottom}
+1. Select a region for your monitoring instance.
 
    The region needs to match the location of your existing VPN gateway.
    {: important}
 
-3. Choose your pricing plan.
+1. Choose your pricing plan.
 
    Pricing plan details are explained in the selection window. Select the plan that best meets your requirements.
 
-4. Provide a unique service name for your instance. The name can be any name that you want. The name has no impact on functionality.
+1. Provide a unique service name for your instance. The name can be any name that you want. The name has no impact on functionality.
 
    Do not give multiple monitoring instances the same name.
    {: important}
 
-5. Optionally, select a resource group. A resource group organizes account resources in customizable groupings. Any account resource that is managed by using IBM Cloud Identity and Access Management (IAM) access control belongs to a resource group within your account.
-
-   ![Resource group](images/metrics_2.png "Resource group"){: caption="Figure 2. Resource group" caption-side="bottom}
+1. Optionally, select a resource group. A resource group organizes account resources in customizable groupings. Any account resource that is managed by using IBM Cloud Identity and Access Management (IAM) access control belongs to a resource group within your account.
 
    If you do not have any pre-configured resource groups, or have no reason to share this resource selectively, use the default selection.
    {: note}
@@ -106,9 +102,9 @@ To receive monitoring metrics, use the following steps:
    If your account has multiple resource groups, you can choose which group has access to this {{site.data.keyword.mon_full_notm}} instance. By using this selective access, metrics can be available to some resource groups and not to others.
    {: tip}
 
-6. Check the **Enable Platform Metrics** checkbox. You must select this option to receive metrics from your VPN gateway.
+1. Check the **Enable Platform Metrics** checkbox. You must select this option to receive metrics from your VPN gateway.
 
-7. Click **Create**. You are taken back to the monitoring metrics home page.
+1. Click **Create**. You are taken back to the monitoring metrics home page.
 
 Within a few minutes, your new monitoring instance is displayed with several configurations. You might have to refresh your browser to see it.  
 
@@ -118,10 +114,6 @@ Within a few minutes, your new monitoring instance is displayed with several con
 To view metrics for a specific flow log, follow these steps:
 
 1. From the Flow logs for VPC page, click the **Actions** menu ![Actions icon](../icons/action-menu-icon.svg) associated with the flow log. Then, select **Monitoring** from the menu.
-
-   ![Viewing metrics](images/fl-monitoring.png "Viewing metrics"){: caption="Figure 3. Viewing metrics" caption-side="bottom}
    
-1. Launch the Monitoring dashboard. Here is an example of flow log metrics.
-   
-   ![IBM Cloud Monitoring dashboard](images/fl-monitoring-dashboard.png "IBM Cloud Monitoring dashboard"){: caption="Figure 4. IBM Cloud Monitoring dashboard" caption-side="bottom}
+1. Launch the Monitoring dashboard. 
 
