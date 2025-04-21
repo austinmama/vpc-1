@@ -12,10 +12,10 @@ subcollection: vpc
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Configuring ACLs for use with VPN
+# Configuring network ACLs for use with VPN
 {: #configuring-acls-vpn}
 
-You can configure access control lists (ACLs) on the VPN gateway's subnet where the VPN gateway is deployed, and other VPC subnets that communicate over the VPN tunnel.
+You can configure network access control lists (NACLs) on the VPN gateway's subnet where the VPN gateway is deployed, and other VPC subnets that communicate over the VPN tunnel.
 
 The following diagram illustrates packet flow through VPC network ACLs.
 
